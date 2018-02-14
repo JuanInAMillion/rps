@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Rock-Papers-Scissor</title>
+	<link rel="icon" type="image/png" href="images/rpsicon.png" />
+	<link rel="stylesheet" href="resources/css/style.css">
+	<script src="resources/js/jquery-1.10.2.js"></script>
+	<script src="resources/js/jquery-ui.js"></script>
+	<script src="resources/js/rps.js"></script>
+	<script src="resources/js/bounce.js"></script>
+</head>
+
+<body>
+	<div class="container">
+
+		<h1>Lets Play Rock-Paper-Scissors!</h1>
+
+		<!-- screen -->
+		<div class="screen">
+			<table id="game">
+				<tr>
+					<td width="33%"> </td>
+					<td rowspan=2 id="ww"> </td>
+					<td width="33%"> </td>
+				</tr>
+				<tr>
+					<td id="g"> </td>
+					<td id="i"> </td>
+				</tr>
+			</table>
+
+			<div class="players">
+				<span>Player</span>
+				<span>Computer</span>
+			</div>
+		</div>
+
+		<!-- controller -->
+		<div class="controller">
+			<div class="arrow">
+				<img src="resources/images/arrow.gif">
+				<span>Choose One:</span>
+			</div>
+
+			<div class="buttons">
+				<span>
+					<a href="#">
+						<img onclick="g(0)" class="rps" src="resources/images/rock.png">
+					</a><br />Rock
+				</span>
+				<span>
+					<a href="#">
+						<img onclick="g(2)" class="rps" src="resources/images/paper.png">
+					</a><br />Paper
+				</span>
+				<span>
+					<a href="#">
+						<img onclick="g(1)" class="rps" src="resources/images/scissors.png">
+					</a><br />Scissors
+				</span>
+			</div>
+
+		</div>
+
+	</div>
+	<!-- end .container -->
+
+	<footer>
+		<span>&copy; Copyright 2018 Juan Alcantara</span>
+	</footer>
+
+</body>
+
+</html>

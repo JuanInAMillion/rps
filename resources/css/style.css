@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial Black";
+  text-align: center;
+}
+
+.container {
+  box-shadow: 10px 10px 10px dimgrey;
+  background-color: #466995;
+  border: 5px solid black;
+  border-radius: 10px;
+  height: 730px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 45px;
+  margin-top: 10px;
+}
+
+.screen {
+	border-bottom: 1px solid white;
+  height: 380px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#game {
+  height: 300px;
+  width: 600px;
+  font-size: 50px;
+	margin: 0 auto;
+}
+
+.players {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 450px;
+}
+
+.controller {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+  height: 180px;
+}
+
+.arrow {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 180px;
+  width: 200px;
+}
+
+.buttons {
+  display: inline-flex;
+  justify-content: space-around;
+	height: 180px;
+	width: 600px;
+}
+
+.rps {
+  width: 100px;
+}
+
+footer {
+  color: #2959c2;
+  padding-top: 20px;
+  font-size: 20px;
+}
