@@ -1,84 +1,106 @@
 /* ipad landscape */
-@media only screen and (max-width: 1024px) {
+
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
   .container {
+    margin-top: 5px;
     height: 650px;
     width: 900px;
   }
-
-  h1{
+  h1 {
     font-size: 2.5rem;
   }
-
   #game {
     font-size: 2.5rem;
   }
-
   .arrow img {
     width: 150px;
   }
-
   .rps {
     width: 80px;
   }
 }
 
 /* ipad portrait */
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
   .container {
-    margin-top: 10px;
+    margin-top: 5px;
     height: 900px;
     width: 700px;
   }
-
   h1 {
     font-size: 2rem;
   }
-
   #game {
     font-size: 2.5rem;
     width: 90%;
   }
-
-  .arrow{
+  .controller {
+    padding-top: 100px;
+  }
+  .arrow {
     display: none;
   }
-
   .buttons {
     margin: 0 auto;
     width: 70%;
   }
+}
 
+/* iphone landscape*/
+
+@media only screen and (max-width: 667px) and (orientation: landscape) {
+  .container {
+    margin-top: 0;
+    height: 365px;
+    width: 650px;
+  }
+  h1 {
+    display: none;
+  }
+  #game {
+    font-size: 1rem;
+  }
+  #game img {
+    width: 60px;
+  }
+  .arrow {
+    display: none;
+  }
+  .buttons {
+    margin: 0 auto;
+    width: 50%;
+  }
   .rps {
-    width: 80px;
+    width: 50px;
   }
 }
 
 /* iphone portrait*/
-@media only screen and (max-width: 480px) {
-  .container {
-    margin-top: 10px;
-    height: 600px;
-    width: 375px;
-  }
 
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+  .container {
+    margin-top: 0;
+    height: 650px;
+    width: 365px;
+  }
   h1 {
     font-size: 1rem;
   }
-
   #game {
     font-size: 1.5rem;
     height: 80%;
   }
-
-  .arrow{
+  .arrow {
     display: none;
   }
-
+  .controller {
+    padding-top: 10px;
+  }
   .buttons {
-    margin-top: 0 auto;
+    margin: 0 auto;
     width: 90%;
   }
-
   .rps {
     width: 80px;
   }
